@@ -23,3 +23,14 @@ import-order <path-to-file>/file.ts
 ```
 
 There is no real plan to keep this project up to date.
+But probably will need to add:
+ - multiple file support (with regex or something)
+ - tests!?
+ - support for multiline import, like:
+``` javascript
+import {
+  func1,
+  func2
+} from 'lib';
+```
+ 
