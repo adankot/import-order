@@ -1,0 +1,19 @@
+{
+  "name": "import-order",
+  "module": "index.ts",
+  "type": "module",
+  "version": "0.0.5",
+  "description": "Ordering imports for a js/ts file",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "bin": {
+    "import-order": "index.js"
+  },
+  "publishConfig": {
+    "ignore": [
+      "testFiles/"
+    ]
+  }
+}
