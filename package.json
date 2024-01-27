@@ -2,7 +2,7 @@
   "name": "import-order",
   "module": "index.ts",
   "type": "module",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Ordering imports for a js/ts file",
   "scripts": {
     "start": "node index.js",
